@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: #250902;
+    color: white;
+    padding: 0 80px 0 30px;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    font-size: "+1";
+    font-style: ;
+}
+
+.d-flex{
+	display: flex;
+	align-items: center;
+}
+
+.header-border {
+    background-color: #250902;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 50px;
+    z-index: -1;
+}
+
+.header-logo img {
+    width: 40px;
+}
+
+.navigation-items a {
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 25px;
+}
+
+.navigation-items a:hover {
+    background-color: brown;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-1 {
+    width: 25%;
+    height: 400px;
+    background-image: url(https://cdn.shazoo.ru/431891_RIeslV3WHX_lifestyles.png);
+    background-position: left;
+    background-size: 550px auto;
+    margin: 4px 5px;
+    opacity: 0.8;
+    position: relative; /* Makes elements display above overlay. */
+    
+}
+
+.image-1:before {
+    position: absolute; /* Overlay */
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image-2 {
+    width: 45%;
+    height: 400px;
+    background-image: url(https://showgamer.com/wp-content/uploads/2020/09/crusaderkings3-1-blogroll-1598816665386.jpg);
+    background-position: center;
+    background-size: 720px auto;
+    margin: 4px 5px;
+}
+
+.image-3 {
+    width: 25%;
+    height: 400px;
+    background-image: url(https://thumb.hurtom.com/image/i0.wp.com/twinfinite.net/wp-content/uploads/2020/05/Crusader-Kings-3-11.jpg);
+    background-position: center;
+    background-size: 550px auto;
+    margin: 4px 5px;
+    opacity: 0.8;
+    position: relative;
+}
+
+.image-3:before {
+    position: absolute; /* Overlay */
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #817676;
+}
+
+p, h3, h2, li {
+    font-family: 'David Libre', serif;
+}
+
+main {
+    background-color: white;
+    position: absolute;
+    top: 75px;
+    right: 80px;
+    left: 80px;
+    z-index: 1;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.title {
+    font-family: 'David Libre', serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+.section {
+	padding: 75px 0 0 0;
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.subsection {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+#introduction .subsection p {
+    text-align: center;
+}
+
+#introduction .subsection h3 {
+    width: 200px;
+    text-align: center;
+}
+
+#home-p p {
+    margin: 0 auto 20px auto;
+}
+
+#home-p {
+    flex-direction: column;
+}
+
+#home-p p {
+    width: 300px;
+    text-align: center;
+}
+
+#home-p img {
+    margin: 20px auto;
+}
+
+
+
+
+
+#introduction p {
+    width: 200px;
+}
